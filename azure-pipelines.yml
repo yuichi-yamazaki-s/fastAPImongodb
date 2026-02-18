@@ -2,8 +2,8 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '57e2d243-130a-4d15-800e-47bcd42bbf5a'
-  webAppName: 'testeeeappee'
+  azureServiceConnectionId: 'd517be18-3880-489c-87d7-a0c9fbde87ff'
+  webAppName: 'yamazakiwebapp'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: testeeeappee
+    environment: yamazakiwebapp
 
     strategy:
       runOnce:
